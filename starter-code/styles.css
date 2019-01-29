@@ -43,7 +43,7 @@ nav a {
 header {
   display: block;
   width: 100%;
-  height: 600px;
+  height: 450px;
   background-color: #235a79;
 }
 
@@ -92,13 +92,12 @@ header {
   float: left;
   margin: 10px 20px;
   padding: 2px;
- 
 }
-.texted a{
-  text-decoration:none;
+.texted a {
+  text-decoration: none;
 }
-.texted a:visited{
-  color:white;
+.texted a:visited {
+  color: white;
 }
 .bear-npm-logo {
   float: left;
@@ -117,14 +116,13 @@ h4 {
 h1 {
   display: inline-block;
   color: White;
-  width: 400px;
+  width: 500px;
   font-weight: 200;
-  font-size: 48px;
-  
+  font-size: 46px;
 }
 .second-half {
   width: 100%;
-  height: 400px;
+  height: 350px;
   background: url("images/city-scape.svg") no-repeat;
 }
 .sometextc-button {
@@ -138,26 +136,88 @@ h1 {
   width: 1000px;
   height: 400px;
 }
-p{
-  color:white;
-  width:475px;
-  text-align:left;
-  margin:30px 20px;
+.sometextc-button p {
+  color: white;
+  width: 475px;
+  text-align: left;
+  margin: 30px 20px;
 }
-.signup-npm-button{
-  width:250px;
-  height:50px;
-  background:rgb(240, 146, 51);
-  border-radius:35px;
+.signup-npm-button {
+  width: 250px;
+  height: 50px;
+  background: rgb(240, 146, 51);
+  border-radius: 35px;
 }
-.signup-npm-button a{
-  display:block;
-  color:white;
-  text-decoration:none;
-  text-align:center;
+.signup-npm-button a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
   line-height: 2.5em;
-  font-size:1.3em;
+  font-size: 1.3em;
 }
-.signup-npm-button a:visited{
-  color:white;
+.signup-npm-button a:visited {
+  color: white;
+}
+#section-1 {
+  background: rgb(39, 53, 71);
+}
+.npm-orgs {
+  width: 78%;
+  height: 350px;
+  padding: 50px;
+  margin: 0 auto;
+}
+.npm-orgs img {
+  width: 450px;
+  /*height:221px;*/
+  display: inline-block;
+  float: left;
+}
+.middle-right {
+  float: right;
+ 
+}
+.middle-right li {
+  color: white;
+  line-height: 1.5em;
+}
+.middle-right ul {
+  margin: 10px 0 0 20px;
+}
+
+.middle-right a,
+.middle-right p {
+  text-decoration: none;
+  color: white;
+}
+.middle-right h1 {
+  margin-left: 15px;
+}
+.middle-right p {
+  margin-top: 15px;
+}
+
+.signup-Orgs a:visited {
+  color: white;
+}
+.signup-Orgs a {
+  display: block;
+  text-align: center;
+  line-height: 2.5em;
+}
+.signup-Orgs {
+  margin-top: 20px;
+  width: 250px;
+  height: 50px;
+  background: rgb(203, 56, 55);
+  border-radius: 35px;
+  font-size: 1.3em;
+}
+
+#section-2{
+  background-size:cover;
+  background-color:url("images/red-car.png");
+  width:358px;
+  height:202px;
 }
