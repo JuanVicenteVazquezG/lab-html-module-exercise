@@ -120,6 +120,7 @@ h1 {
   width: 400px;
   font-weight: 200;
   font-size: 48px;
+  
 }
 .second-half {
   width: 100%;
@@ -139,7 +140,24 @@ h1 {
 }
 p{
   color:white;
-  width:400px;
+  width:475px;
   text-align:left;
-  margin:30px 0;
+  margin:30px 20px;
+}
+.signup-npm-button{
+  width:250px;
+  height:50px;
+  background:rgb(240, 146, 51);
+  border-radius:35px;
+}
+.signup-npm-button a{
+  display:block;
+  color:white;
+  text-decoration:none;
+  text-align:center;
+  line-height: 2.5em;
+  font-size:1.3em;
+}
+.signup-npm-button a:visited{
+  color:white;
 }
