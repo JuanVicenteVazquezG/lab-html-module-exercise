@@ -120,6 +120,9 @@ h1 {
   font-weight: 200;
   font-size: 46px;
 }
+h2 {
+  font-size: 2.5rem;
+}
 .second-half {
   width: 100%;
   height: 350px;
@@ -176,7 +179,6 @@ h1 {
 }
 .middle-right {
   float: right;
- 
 }
 .middle-right li {
   color: white;
@@ -215,14 +217,14 @@ h1 {
   font-size: 1.3em;
 }
 
-#section-2{
-  background-size:cover;
-  background:url("images/forklift.svg") no-repeat;
-  height:450px;
-  position:relative;
+#section-2 {
+  background-size: cover;
+  background: url("images/forklift.svg") no-repeat;
+  height: 450px;
+  position: relative;
 }
 
-.install-npm{
+.install-npm {
   margin-top: 20px;
   width: 150px;
   height: 50px;
@@ -231,51 +233,72 @@ h1 {
   font-size: 1.2em;
 }
 
-.install-npm a:visited{
-  color:white;
+.install-npm a:visited {
+  color: white;
 }
 
-.install-npm a{
-  display:block;
+.install-npm a {
+  display: block;
   text-align: center;
   line-height: 2.5em;
-  text-decoration:none;
-  
+  text-decoration: none;
 }
-.tl-install-npm{
-position:absolute;
-left:100px;
-top:100px;
-  width:300px;
-
+.tl-install-npm {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 300px;
 }
-.tl-text{
-  margin-top:20px;
-  display:inline-block;
-  width:400px;
-  color:white;
-  font-size:1.3em;
-  text-align:left;
+.tl-text {
+  margin-top: 20px;
+  display: inline-block;
+  width: 400px;
+  color: white;
+  font-size: 1.3em;
+  text-align: left;
 }
-
-.container{
-  width:32%;
-  float:left;
-  margin:7px;
-  border:1px solid violet;
+.bigger {
+  width: 75%;
+  height: 500px;
+  margin: 0 auto;
 }
-
-.container img{
-  display:block;
-  width:20%;
-  margin:20px auto;
+.bigger h2 {
+  color: rgb(83, 88, 98);
+}
+.container {
+  width: 32%;
+  float: left;
+  margin: 5px;
 }
 
-.container h3{
-  text-align:center;
-  margin-top:20px;
+.container img {
+  display: block;
+  width: 20%;
+  margin: 20px auto;
 }
-.container p{
-  text-align:center;
-  margin-top:20px
+.container a:visited,
+.container a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.container h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.container p {
+  width: 80%;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  color: rgb(135, 145, 156);
+}
+.header-npm-registry {
+  margin-top: 50px;
+}
+.header-npm-registry h1 {
+  color: rgb(83, 88, 98);
+  width: 100%;
+}
+.header-npm-registry p {
+  color: rgb(83, 88, 98);
 }
