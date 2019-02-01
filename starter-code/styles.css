@@ -122,8 +122,10 @@ h1 {
 }
 h2 {
   font-size: 2.5rem;
+  color:white;
 }
 .second-half {
+  background-size:cover;
   width: 100%;
   height: 350px;
   background: url("images/city-scape.svg") no-repeat;
@@ -195,6 +197,7 @@ h2 {
 }
 .middle-right h1 {
   margin-left: 15px;
+  color:white;
 }
 .middle-right p {
   margin-top: 15px;
@@ -294,6 +297,7 @@ h2 {
 }
 .header-npm-registry {
   margin-top: 50px;
+
 }
 .header-npm-registry h1 {
   color: rgb(83, 88, 98);
@@ -301,4 +305,5 @@ h2 {
 }
 .header-npm-registry p {
   color: rgb(83, 88, 98);
+  text-align:center;
 }
